@@ -1,10 +1,10 @@
 # Define the machine object files for your program
-OBJECTS = qdf438Project1.o Stack.o
+OBJECTS = ProjectStacks.o Stack.o
 # Define your include file
 INCLUDES = Stack.h
 
 # make for the executable
-project1: ${OBJECTS}
+projectStacks: ${OBJECTS}
 	gcc -g -o project1 ${OBJECTS}
 
 # Simple suffix rules for the .o
