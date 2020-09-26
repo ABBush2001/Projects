@@ -9,7 +9,7 @@ int evaluatePostfix(char *postfixString);
 int main()
 {
 	FILE *inputFile;
-	inputFile = fopen("p1Input.txt", "r");
+	inputFile = fopen("Input.txt", "r");
 	if(inputFile == NULL){
 
 		perror("Error opening file");
