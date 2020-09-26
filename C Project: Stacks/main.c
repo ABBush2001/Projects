@@ -88,8 +88,6 @@ We return an integer based on any errors found in infixString.
 If there are no errors, return 0.
 If there is a missing (, return 1.
 If there is a missing ), return 2.
-If there is a missing operator, return 3 (for extra credit).
-If there is a missing operand, return 4 (for extra credit).
 *********/
 int convertToPostfix(char *infixString, char *postfixString)
 {
