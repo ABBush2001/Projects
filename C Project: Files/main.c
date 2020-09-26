@@ -1,7 +1,7 @@
 #include <stdio.h>  //For input/output functions.
 #include <stdlib.h> //For malloc, free, etc.
 #include <string.h> //For string functions
-#include "Project0.h"  //Include our own header file for the Employee struct.
+#include "Files.h"  //Include our own header file for the Employee struct.
 
 
 int main()
