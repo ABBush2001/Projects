@@ -5,7 +5,7 @@ INCLUDES = Stack.h
 
 # make for the executable
 projectStacks: ${OBJECTS}
-	gcc -g -o project1 ${OBJECTS}
+	gcc -g -o projectStacks ${OBJECTS}
 
 # Simple suffix rules for the .o
 %.o: %.c ${INCLUDES}
